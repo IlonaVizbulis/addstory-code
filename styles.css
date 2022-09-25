@@ -1,0 +1,56 @@
+    nav {
+      padding: 2% 0; /* уст. знач. полей вокруг содержимого элемента (короче, меняет размер строки с меню)*/
+      background-color: #ffffff;
+    }
+    nav ul {
+      list-style-type: none;/* изменяет вид маркера для элементов списка*/
+      padding: 0;
+      margin: 0;/* уст. величину отступа от каждого края элемента*/
+    }
+    header  ul { text-align: right; }
+    footer nav ul { text-align: center; }
+    nav ul li { display: inline-block; }/* ? генерирует блочный элемент, кот. обтекается другими элементами веб-страницы*/
+    nav ul li {
+      margin-left: 1%;/*настраиваю отступы от левого и правого краев*/
+      margin-right: 3%;
+    }
+    div {
+      float: left;
+      margin-left: 4%;/*настраиваю отступы от левого и правого краев*/
+      margin-top: 1%;
+    }
+    footer div { margin-top: 2%; }
+    a {
+      color: rgb(46, 42, 42);
+      text-decoration: none;/*добавляет всякие подчеркивания-перечеркивание, в д.сл. убирает*/
+      font-family: 'Nunito', sans-serif; /*нет шрифта, как в шаблоне фигмы*/
+      font-style: normal;
+      font-weight: 480;
+      font-size: 100%;
+      line-height: 137%;
+    } 
+    button {
+      background-color: #087bff; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 50px;
+      font-size: 100%;
+      margin: 4px 2px;
+      cursor: pointer; /*устанавливает форму курсора, когда он находится в пределах элемента*/
+    }
+    input {
+    height: 35px;
+    margin-left: 4%;
+    font-size: 120%; /* 14 pt*/
+    }
+    textarea {
+    margin-left: 4%;
+    resize: none; /* чтобы размер нельзя было менять */
+    } 
+    h3 { margin-left: 4%; } 
+    u a { color: rgb(145, 138, 138); } 
+    u { color: rgb(145, 138, 138); } 
