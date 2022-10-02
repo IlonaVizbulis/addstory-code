@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Написание истории</title>
+<link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color: rgb(240, 239, 239)">
@@ -24,13 +25,26 @@
 <main>
   <br>
   <form action=""><!--указывает обработчик, к которому обращаются данные формы при их отправке на сервер-->
-    <h3><strong>Название истории</strong></h3>
+    <h3>Название истории</h3>
+    <br>
     <p><input maxlength="150" size="204" value="" type="text"></p><!--однострочное текстовое поле-->
     <br>
-    <h3><strong>Текстовый редактор</strong></h3>
-    <p><textarea cols="171" rows="30" name="article" type="text"style="font-size: 145%" ></textarea></p> <!--многострочное текстовое поле-->
-
-    <h3><strong>Загрузите ваши фото и/или видео</strong></h3>
+    <h3>Дата/период событий истории</h3>
+    <p style = "font-size: 120%; margin-left: 4%;">Выберите дату: <input type="date" name="calendar">
+    &emsp; Выберите период: &emsp;<!--отступ 4 пробела-->
+    <select name="select" size="3" multiple>
+      <option selected value="s1">1-вый месяц войны</option>
+      <option value="s2">2-3 месяцы войны</option>
+      <option value="s3">4-5 месяцы войны</option>
+      <option value="s3">6-7 месяцы войны</option>
+    </select></p>
+    <br>
+    <h3>Текстовый редактор</h3>
+    <br>
+    <p><textarea cols="171" rows="30" name="article" type="text" style="font-size: 145%" ></textarea></p> <!--многострочное текстовое поле-->
+    <br>
+    <h3>Загрузите ваши фото и/или видео</h3>
+    <br>
     <p><input type="file" name="photo, video" multiple accept="image/*,video/*">
     <input type="reset" value="Отмена" style="font-size: 120%" >
 
