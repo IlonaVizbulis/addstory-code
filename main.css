@@ -1,0 +1,18 @@
+input {
+    height: 35px;
+    margin-left: 4%;
+    font-size: 120%; /* 14 pt*/
+    }
+    textarea {
+    margin-left: 4%;
+    resize: none; /* чтобы размер нельзя было менять */
+    } 
+    h3 { 
+    margin-left: 4%; 
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Nunito', sans-serif; /*нет шрифта, как в шаблоне фигмы*/
+    font-style: normal;
+    } 
+    u a { color: rgb(	169,169,169); } /*DarkGray #A9A9A9*/
+    u { color: rgb(169, 169, 169); } 

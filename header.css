@@ -1,0 +1,14 @@
+header  ul { text-align: right; }
+button {
+    background-color: #087bff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 100%;
+    margin: 4px 2px;
+    cursor: pointer; /*устанавливает форму курсора, когда он находится в пределах элемента*/
+  }
