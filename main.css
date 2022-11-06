@@ -7,11 +7,12 @@ input {
     margin-left: 4%;
     resize: none; /* чтобы размер нельзя было менять */
     } 
+    #public{ margin-left: 90%; }
     h3 { 
     margin-left: 4%; 
     font-weight: bold;
     font-size: large;
-    font-family: 'Nunito', sans-serif; /*нет шрифта, как в шаблоне фигмы*/
+    font-family: 'Nunito', sans-serif; 
     font-style: normal;
     } 
     u a { color: rgb(	169,169,169); } /*DarkGray #A9A9A9*/
